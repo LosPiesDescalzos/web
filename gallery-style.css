@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background: #F5FFFA;
+    margin-bottom: 10vh;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    padding: 3vh;
+}
+
+.preloader, .error {
+    margin: 20px;
+    text-align: center;
+}
+
+.main_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1.5vh;
+}
+
+.more {
+    background-color: white;
+    font-size: 30px;
+    margin-left: 40px;
+    height: 100px;
+    width: 150px;
+
+}
+
+.gif{
+    width: 90px;
+    height: 60px;
+}
+
+
+.gif img{
+    height: 100%;
+    width: 100%;
+}

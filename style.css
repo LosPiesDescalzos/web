@@ -1,0 +1,129 @@
+.top-menu {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    background: #628356;
+}
+
+
+.menu-main {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu-main li {
+    display: inline-block; /*меню в строку*/
+    margin-right: -4px;
+}
+.menu-main a {
+    display: inline-block;
+    padding: 15px 30px; /*ширина и высота меню*/
+    color: white;
+    text-decoration: none;
+}
+
+
+.menu-main a.current,
+.menu-main a:hover {
+    background: rgba(0,0,0,.2); /* выделение по наведению*/
+    color: #d8fb0c;
+}
+
+
+@media (max-width: 680px) {
+    .top-menu {margin: 0;}
+    .menu-main li {
+        display: block;
+        margin-right: 0;
+    }
+    .menu-main a {display: block;}
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    background-color: #628356;
+    width: 100%;
+}
+
+a:visited {
+    color: #e5e269;
+}
+
+/*a .active{*/
+/*    background-color: red;*/
+/*}*/
+
+.sofa {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: url(images/sofa.jpg) no-repeat -100px ;
+    background-size: auto 350px; /* Высота фотографии равна высоте элемента */
+}
+
+@media (max-width: 680px)
+{
+    .sofa{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background: url(images/sofa.jpg) no-repeat -50px 0px;
+        background-size: auto 180px; /* Высота фотографии равна высоте элемента */
+    }
+}
+
+.main {
+    margin-top: 120px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-photo {
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+
+.main-students {
+    margin-top: 100px;
+}
+
+.main-parents {
+    margin-top: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-job{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.team-sofa, .team-kate, .team-mars{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.parents-photo {
+    width: 150px;
+    height: 150px;
+}
+
+@media (max-width: 680px)
+{
+    .parents-photo {
+        display: none;
+    }
+}
+
+

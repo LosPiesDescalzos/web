@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="feedback.css">
+  <script src="blink.js"></script>
+  <script src="js4.js"></script>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body onload="blink()">
+<header>
+  <nav class="top-menu">
+    <ul class="menu-main">
+      <li><a id="b_link" href="index.html" class="current block">О нас</a></li>
+      <li><a class="block" href="courses.html">Курсы</a></li>
+      <li><a class="block" href="parents.html">Родителям</a></li>
+      <li><a class="block" href="students.html">Ученикам</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <form id="reviews">
+    <fieldset name="field">
+      <legend>Мы ждем ваши отзывы!</legend>
+      <p><label for="name">Имя </label><input id="name" type="text"></p>
+      <p><label for="email">E-mail </label><input type="email" id="email"></p>
+      <textarea placeholder="Напишите здесь ваш отзыв! Будьте честны, так вы поможете нам стать лучше! " id="message" rows="10" cols="45"></textarea><!--Поле для ввода сообщения-->
+    </fieldset>
+    <p><input type="submit" value="Отправить"></p>
+  </form>
+  <div id="table">
+    <script src="js5.js"></script>
+  </div>
+</main>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col">
+        <h4>О нас</h4>
+        <ul>
+          <li><a href="team.html">наша команда</a></li>
+          <li><a href="job-with-us.html">работа у нас</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>проекты</h4>
+        <ul>
+          <li><a href="#">магазин</a></li>
+          <li><a href="#">коворкинг</a></li>
+          <li><a href="gallery.html">есть идеи развития?</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Присоединяйся</h4>
+        <div class="social-links">
+          <a href="#">ТГ<i class="fab fa-facebook-f"></i></a>
+          <a href="#">ВК<i class="fab fa-twitter"></i></a>
+          <a href="#">Тел<i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>отзывы</h4>
+        <ul>
+          <li><a href="#">оставь отзыв</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<section id="copy-right">
+  <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>
+    С любовью для вас команда <a href="#">H&N SCHOOL</a>
+  </div>
+</section>
+
+</body>
+</html>

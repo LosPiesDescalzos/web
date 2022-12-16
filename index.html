@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="swipper.css">
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet"/>
+
+
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="blink.js"></script>
+    <script src="js4.js"></script>
+    <script defer src="js7.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="blink()">
+<header>
+    <nav class="top-menu">
+        <ul class="menu-main">
+            <li><a id="b_link" href="index.html" class="current block">О нас</a></li>
+            <li><a class="block" href="courses.html">Курсы</a></li>
+            <li><a class="block" href="parents.html">Родителям</a></li>
+            <li><a class="block" href="students.html">Ученикам</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="main">
+        <img class="main-photo" src="images/resume.svg">
+        <h1>Добро пожаловать к нам!</h1>
+    </div>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/1.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/2.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/3.jpg">
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</main>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>О нас</h4>
+                <ul>
+                    <li><a href="team.html">наша команда</a></li>
+                    <li><a href="job-with-us.html">работа у нас</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>проекты</h4>
+                <ul>
+                    <li><a href="#">магазин</a></li>
+                    <li><a href="#">коворкинг</a></li>
+                    <li><a href="gallery.html">есть идеи развития?</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Присоединяйся</h4>
+                <div class="social-links">
+                    <a href="#">ТГ<i class="fab fa-facebook-f"></i></a>
+                    <a href="#">ВК<i class="fab fa-twitter"></i></a>
+                    <a href="#">Тел<i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>отзывы</h4>
+                <ul>
+                    <li><a href="feedback.html">оставь отзыв</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<section id="copy-right">
+    <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>
+        С любовью для вас команда <a href="#">H&N SCHOOL</a>
+    </div>
+</section>
+
+</body>
+</html>
